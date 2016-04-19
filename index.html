@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app='gold'>
+    <head>
+        <link rel="stylesheet" href="main.css" type="text/css" />
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.4/angular.js"></script>
+    </head>
+    <body ng-controller="eureka">
+        <div class="container" ng-click='drop()'>
+            <div ng-repeat = "pin in pins">
+                <div class='pin' style="top:{{pin.y-12}}px; left: {{pin.x+8}}px;"></div>
+            </div>
+        </div>
+        <!--   scripts   -->
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
