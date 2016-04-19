@@ -6,6 +6,5 @@ function findGold($scope) {
         $scope.x=event.clientX;
         $scope.y=event.clientY;
         $scope.pins.push({'x': $scope.x, 'y': $scope.y});
-        console.log($scope.pins);
     }
 }
